@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.npm/
+.pnp.*
+
+# Build outputs
+dist/
+dist-ssr/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
+coverage/
+*.local
+.eslintcache
+*.tsbuildinfo
+
+# Accidental malformed folder from prior scaffolding
+{public,src/
